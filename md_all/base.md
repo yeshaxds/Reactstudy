@@ -1,4 +1,5 @@
 # Java 基础语法
+**_[详情见网址](:https://www.runoob.com/java/java-basic-syntax.html)_**
 
 ## 一、程序基本结构
 - Java程序由**多个对象**组成
@@ -106,3 +107,18 @@
    }
 
 
+### java 关键字
+- 访问控制符：`public、private、protected`
+- 类\方法修饰符：`abstract、final、static、synchronized、native、strictfp`
+- 基本数据类型：`byte、short、int、long、float、double、boolean、char`
+- 引用数据类型：`类、接口、数组、枚举`
+- 控制语句：`if、else、switch、for、while、do、break、continue、return`
+- 异常处理：`try、catch、throw、throws、finally`
+- 包：`package`
+- 注释：`/**...*/、//`
+- 运算符：`+、-、*、/、%、++、--、=、==、!=、>、<、>=、<=、&&、||、&、|、^、~、<<、>>、>>>、?、:、,、.、;、[]、()、{}、...`
+- 保留字：`abstract、assert、boolean、break、byte、case、catch、char、class、const、continue、default、do、double、else、enum、extends、final、finally、float、for、goto、if、implements、import、instanceof、int、interface、long、native、new、package、private、protected、public、return、short、static、strictfp、super、switch、synchronized、this、throw、throws、transient、try、void、volatile、while`
+
+## 继承
+
+在 Java 中，一个类可以继承另一个类。如果你要创建的类已经存在所需的方法或属性，可以直接继承该类以重用代码。被继承的类称为超类（super class），继承该类的类称为子类（sub class）。
