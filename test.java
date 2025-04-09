@@ -6,6 +6,8 @@ import Class_Object.Dog;
 import Class_Object.Flyable;
 
 import java.util.Scanner;
+//一个源文件只能又一个public类，如果有多个public类，编译器会报错。
+// 包名和类名要一致，否则编译不通过。
 public class test {
     public static void main(String[] args){
         // 调用HelloWorld类
@@ -18,6 +20,7 @@ public class test {
         System.out.println(m_j.size);
 
         // 类和对象的练习
+        // 父类调用子类方法
         Animal dog = new Dog("旺财");
         Animal bird = new Bird("小鸟");
         dog.eat();
