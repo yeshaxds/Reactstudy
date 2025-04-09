@@ -8,3 +8,6 @@ out/production/Reactstudy/.idea/modules.xml
 out/production/Reactstudy/.idea/Reactstudy.iml
 out/production/Reactstudy/.idea/vcs.xml
 out/production/Reactstudy/.idea/workspace.xml
+out/production/Reactstudy/.idea/uiDesigner.xml
+*.class
+out/production/Reactstudy/md_all/super的使用.md
