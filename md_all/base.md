@@ -16,6 +16,13 @@
       // 成员变量
       // 成员方法
   }
+
+  
+|关键字|	用途	|示例|
+|------|----------|------|
+|extends|	类继承类，或接口继承接口|	```class A extends B```|
+|implements	|类实现接口	|```class A implements B,C```|
+**implements 关键字只能用于实现接口，而不能用于继承类**
 #### 示例：
     public class Dog {
     // 成员变量
@@ -27,10 +34,20 @@
             System.out.println("汪汪叫");
         }
     }
+
+**Q：接口能用 implements 吗？**
+- 不能！ 接口只能通过 extends 继承其他接口：
+
+```java
+interface A { /*...*/ }
+interface B implements A { /*...*/ }  // 错误！
+interface B extends A { /*...*/ }     // 正确
+```
 ### 2. 对象（Object）
   - 类的具体实例
 
-```java创建方式：
+```java
+创建方式：
     类名 对象名 = new 类名();
     示例：
 
