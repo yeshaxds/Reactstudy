@@ -4,7 +4,7 @@ import Class_Object.Animal;
 import Class_Object.Bird;
 import Class_Object.Dog;
 import Class_Object.Flyable;
-
+import Data_Type.*;
 import java.util.Scanner;
 //一个源文件只能又一个public类，如果有多个public类，编译器会报错。
 // 包名和类名要一致，否则编译不通过。
@@ -28,5 +28,9 @@ public class test {
 
         //向下转型调用接口方法
         ((Flyable) bird).fly();
+
+        // 数据类型类
+        Data_t data = new Data_t();
+        data.show();
     }
 }
