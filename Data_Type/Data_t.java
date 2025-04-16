@@ -1,5 +1,8 @@
 package Data_Type;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Data_t {
     byte a = 1;
     short b = 2; // 短整型
@@ -25,5 +28,12 @@ public class Data_t {
         System.out.println("i = " + i);
         for(int i=0;i<j.length;i++)
             System.out.println("j = " + j[i]);
+    }
+    public void now_time(){
+        Date data = new Date();
+        System.out.println("当前时间为：" + data);
+//        使用 SimpleDateFormat 格式化日期
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        System.out.println("当前时间为：" + sdf.format(data));
     }
 }
